@@ -1,3 +1,5 @@
+[![Roger Wilco Imagery, by Prime Rogue Inc.](.github/roger-wilco-imagery-banner.png)](https://rogerwilcoimagery.com)
+
 # CFB Wainwright fire: Landsat imagery
 
 Raw, unmodified Landsat 8/9 exports covering the Oct. 17, 2026 fire at CFB Wainwright, Alberta, kept so anyone can check the analysis in the [CFB Wainwright fire archive](https://github.com/primerogueinc/cfb-wainwright-fire-archive). Sentinel data are in separate repositories ([Sentinel-2](https://github.com/primerogueinc/CFB-Wainwright---Full-Satellite-Data---Copernicus-), [Sentinel-1](https://github.com/primerogueinc/CFB-Wainwright-Fire-Sentinel-1), [Sentinel-3](https://github.com/primerogueinc/CFB-Wainwright-Sentinel-3-Archives)).
@@ -29,5 +31,13 @@ python3 scripts/ingest.py path/to/Browser_images.zip [--note "Landsat 9, 18:17 U
 ## Licence
 
 Scripts and documentation: see LICENSE. Data: Landsat imagery courtesy of the U.S. Geological Survey; public domain.
+
+## Prime Rogue
+
+Part of **Roger Wilco Imagery**, Prime Rogue Inc.'s satellite imagery archive.
+
+- [rogerwilcoimagery.com](https://rogerwilcoimagery.com)
+- [primerogueinc.com](https://primerogueinc.com)
+- [osintyyc.ca](https://osintyyc.ca)
 
 Maintained by Prime Rogue Inc. Contact: contact@primerogueinc.com
