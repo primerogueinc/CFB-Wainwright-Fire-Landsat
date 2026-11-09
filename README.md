@@ -21,4 +21,4 @@ python3 scripts/ingest.py path/to/Browser_images.zip [--note "Landsat 9, 18:17 U
 
 Scripts and documentation: see LICENSE. Data: Landsat imagery courtesy of the U.S. Geological Survey; public domain.
 
-Maintained by Prime Rogue Inc.
+Maintained by Prime Rogue Inc. Contact: contact@primerogueinc.com
