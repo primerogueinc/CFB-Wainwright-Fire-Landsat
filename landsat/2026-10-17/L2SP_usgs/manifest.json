@@ -1,0 +1,270 @@
+{
+ "source": "USGS Landsat Collection 2 Level-2, via Microsoft Planetary Computer (landsat-c2-l2)",
+ "product_id": "LC08_L2SP_040023_20261017_20261021_02_T1",
+ "stac_item": "LC08_L2SP_040023_20261017_02_T1",
+ "date_utc": "2026-10-17",
+ "datetime_utc": "2026-10-17T18:17:00.478523Z",
+ "mission": "landsat-8",
+ "wrs_path_row": "040/023",
+ "level": "L2SP",
+ "scene_cloud_cover": 83.02,
+ "doi": "10.5066/P9OGBGM6",
+ "note": "Landsat 8, path 40 row 23, 18:17 UTC (12:17 p.m. MDT) Oct. 17, 2026: the pass during the fire",
+ "n_files": 23,
+ "qa": {
+  "values_at_points": {
+   "origin": {
+    "QA_PIXEL": 55052,
+    "QA_RADSAT": 0,
+    "SR_B1": 9704,
+    "SR_B2": 9888,
+    "SR_B3": 12035,
+    "SR_B4": 13563,
+    "SR_B5": 17166,
+    "SR_B6": 16399,
+    "SR_B7": 17124,
+    "SR_QA_AEROSOL": 194,
+    "ST_ATRAN": 9021,
+    "ST_B10": 31566,
+    "ST_CDIST": 0,
+    "ST_DRAD": 357,
+    "ST_EMIS": 9770,
+    "ST_EMSD": 26,
+    "ST_QA": 705,
+    "ST_TRAD": 4701,
+    "ST_URAD": 671
+   },
+   "A_range2": {
+    "QA_PIXEL": 55052,
+    "QA_RADSAT": 0,
+    "SR_B1": 8745,
+    "SR_B2": 9544,
+    "SR_B3": 11562,
+    "SR_B4": 13295,
+    "SR_B5": 17684,
+    "SR_B6": 16552,
+    "SR_B7": 15616,
+    "SR_QA_AEROSOL": 224,
+    "ST_ATRAN": 9021,
+    "ST_B10": 31543,
+    "ST_CDIST": 0,
+    "ST_DRAD": 358,
+    "ST_EMIS": 9736,
+    "ST_EMSD": 104,
+    "ST_QA": 707,
+    "ST_TRAD": 4682,
+    "ST_URAD": 671
+   },
+   "B_road_head": {
+    "QA_PIXEL": 55052,
+    "QA_RADSAT": 0,
+    "SR_B1": 7621,
+    "SR_B2": 8549,
+    "SR_B3": 11182,
+    "SR_B4": 12950,
+    "SR_B5": 17689,
+    "SR_B6": 16739,
+    "SR_B7": 15602,
+    "SR_QA_AEROSOL": 224,
+    "ST_ATRAN": 9018,
+    "ST_B10": 31302,
+    "ST_CDIST": 0,
+    "ST_DRAD": 359,
+    "ST_EMIS": 9733,
+    "ST_EMSD": 101,
+    "ST_QA": 710,
+    "ST_TRAD": 4616,
+    "ST_URAD": 673
+   },
+   "range11": {
+    "QA_PIXEL": 55052,
+    "QA_RADSAT": 0,
+    "SR_B1": 7874,
+    "SR_B2": 8550,
+    "SR_B3": 11576,
+    "SR_B4": 13280,
+    "SR_B5": 17633,
+    "SR_B6": 16693,
+    "SR_B7": 15596,
+    "SR_QA_AEROSOL": 224,
+    "ST_ATRAN": 9020,
+    "ST_B10": 31073,
+    "ST_CDIST": 0,
+    "ST_DRAD": 358,
+    "ST_EMIS": 9729,
+    "ST_EMSD": 25,
+    "ST_QA": 712,
+    "ST_TRAD": 4552,
+    "ST_URAD": 672
+   }
+  },
+  "crs": "EPSG:32612",
+  "pixel_m": [
+   30.0,
+   30.0
+  ],
+  "bounds": [
+   440085.0,
+   5763585.0,
+   677115.0,
+   6003315.0
+  ],
+  "covers_points": {
+   "origin": true,
+   "A_range2": true,
+   "B_road_head": true,
+   "range11": true
+  },
+  "fire_box_valid_frac": 1.0,
+  "fire_box_qa_pixel": {
+   "cloud_frac": 1.0,
+   "clear_frac": 0.0,
+   "note": "USGS cloud mask; dense smoke over an active fire is often flagged as cloud."
+  },
+  "usable": true
+ },
+ "previews": [
+  "preview_swir.jpg"
+ ],
+ "files": {
+  "LC08_L2SP_040023_20261017_20261021_02_T1_ST_QA.TIF": {
+   "asset": "qa",
+   "source_url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2026/040/023/LC08_L2SP_040023_20261017_20261021_02_T1/LC08_L2SP_040023_20261017_20261021_02_T1_ST_QA.TIF",
+   "bytes": 29346389,
+   "sha256": "0a6a26229882f4a4901d4703515ed5991729d19a8a54698c7f382681db270486"
+  },
+  "LC08_L2SP_040023_20261017_20261021_02_T1_ANG.txt": {
+   "asset": "ang",
+   "source_url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2026/040/023/LC08_L2SP_040023_20261017_20261021_02_T1/LC08_L2SP_040023_20261017_20261021_02_T1_ANG.txt",
+   "bytes": 117249,
+   "sha256": "a59fd9d312949456d8c88cb00d7ae5b02083d5b5159ee736f14ea50cd26ba2d8"
+  },
+  "LC08_L2SP_040023_20261017_20261021_02_T1_SR_B4.TIF": {
+   "asset": "red",
+   "source_url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2026/040/023/LC08_L2SP_040023_20261017_20261021_02_T1/LC08_L2SP_040023_20261017_20261021_02_T1_SR_B4.TIF",
+   "bytes": 91791210,
+   "sha256": "6d06586a5d492329662e9ed5e1582fb83dbc6bfc57f21736177b283b02bb1bfa"
+  },
+  "LC08_L2SP_040023_20261017_20261021_02_T1_SR_B2.TIF": {
+   "asset": "blue",
+   "source_url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2026/040/023/LC08_L2SP_040023_20261017_20261021_02_T1/LC08_L2SP_040023_20261017_20261021_02_T1_SR_B2.TIF",
+   "bytes": 91311397,
+   "sha256": "18a8e14570fba225a9122aa1395e07bb654abed1503e63cdc1e25235c72d2dcd"
+  },
+  "LC08_L2SP_040023_20261017_20261021_02_T1_ST_DRAD.TIF": {
+   "asset": "drad",
+   "source_url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2026/040/023/LC08_L2SP_040023_20261017_20261021_02_T1/LC08_L2SP_040023_20261017_20261021_02_T1_ST_DRAD.TIF",
+   "bytes": 6263866,
+   "sha256": "58e45f428a6a35149ea2adf7e7f74015e2c7c7f24683d0dd24a2b1c68cea1148"
+  },
+  "LC08_L2SP_040023_20261017_20261021_02_T1_ST_EMIS.TIF": {
+   "asset": "emis",
+   "source_url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2026/040/023/LC08_L2SP_040023_20261017_20261021_02_T1/LC08_L2SP_040023_20261017_20261021_02_T1_ST_EMIS.TIF",
+   "bytes": 37273025,
+   "sha256": "8672e82ca322ed26816da1629f323ab8b1bf29d695313036b335ae12c004d9c2"
+  },
+  "LC08_L2SP_040023_20261017_20261021_02_T1_ST_EMSD.TIF": {
+   "asset": "emsd",
+   "source_url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2026/040/023/LC08_L2SP_040023_20261017_20261021_02_T1/LC08_L2SP_040023_20261017_20261021_02_T1_ST_EMSD.TIF",
+   "bytes": 20331224,
+   "sha256": "e74584f9e8a2b2f09b9d9ca49cdecfb2037c3e731ca607af3a2a3393febac9be"
+  },
+  "LC08_L2SP_040023_20261017_20261021_02_T1_ST_TRAD.TIF": {
+   "asset": "trad",
+   "source_url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2026/040/023/LC08_L2SP_040023_20261017_20261021_02_T1/LC08_L2SP_040023_20261017_20261021_02_T1_ST_TRAD.TIF",
+   "bytes": 71642199,
+   "sha256": "a42e7acc04d6c8d38108e37269967273b073e1904823a9f6e99efa379e194bb9"
+  },
+  "LC08_L2SP_040023_20261017_20261021_02_T1_ST_URAD.TIF": {
+   "asset": "urad",
+   "source_url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2026/040/023/LC08_L2SP_040023_20261017_20261021_02_T1/LC08_L2SP_040023_20261017_20261021_02_T1_ST_URAD.TIF",
+   "bytes": 11123362,
+   "sha256": "9f42577138ae3108e9c726349295a95a6ab5d18ab5cdcd8e65e25c22fd261f34"
+  },
+  "LC08_L2SP_040023_20261017_20261021_02_T1_ST_ATRAN.TIF": {
+   "asset": "atran",
+   "source_url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2026/040/023/LC08_L2SP_040023_20261017_20261021_02_T1/LC08_L2SP_040023_20261017_20261021_02_T1_ST_ATRAN.TIF",
+   "bytes": 12951991,
+   "sha256": "f4d73acc31b94564287ebc0116a6312e27173e25d1eee71b047db247a4e1d56f"
+  },
+  "LC08_L2SP_040023_20261017_20261021_02_T1_ST_CDIST.TIF": {
+   "asset": "cdist",
+   "source_url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2026/040/023/LC08_L2SP_040023_20261017_20261021_02_T1/LC08_L2SP_040023_20261017_20261021_02_T1_ST_CDIST.TIF",
+   "bytes": 4144039,
+   "sha256": "6b88d1136d306467e3b07247864a19e12515ae7fe718ef40f573d7ba94414298"
+  },
+  "LC08_L2SP_040023_20261017_20261021_02_T1_SR_B3.TIF": {
+   "asset": "green",
+   "source_url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2026/040/023/LC08_L2SP_040023_20261017_20261021_02_T1/LC08_L2SP_040023_20261017_20261021_02_T1_SR_B3.TIF",
+   "bytes": 91127157,
+   "sha256": "c592945ed98ab7e8fe8bf5048e1154892011b5904e3369c42fc5e230218f007e"
+  },
+  "LC08_L2SP_040023_20261017_20261021_02_T1_SR_B5.TIF": {
+   "asset": "nir08",
+   "source_url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2026/040/023/LC08_L2SP_040023_20261017_20261021_02_T1/LC08_L2SP_040023_20261017_20261021_02_T1_SR_B5.TIF",
+   "bytes": 92589129,
+   "sha256": "49574413854bd2e2eca528f237762fb9a8039aa4254eecb3f7950b94f1129c02"
+  },
+  "LC08_L2SP_040023_20261017_20261021_02_T1_ST_B10.TIF": {
+   "asset": "lwir11",
+   "source_url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2026/040/023/LC08_L2SP_040023_20261017_20261021_02_T1/LC08_L2SP_040023_20261017_20261021_02_T1_ST_B10.TIF",
+   "bytes": 86239915,
+   "sha256": "415c2a56b6c952ff06c7470a9e7c56e947dba545793de990965aaf53ee40b588"
+  },
+  "LC08_L2SP_040023_20261017_20261021_02_T1_SR_B6.TIF": {
+   "asset": "swir16",
+   "source_url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2026/040/023/LC08_L2SP_040023_20261017_20261021_02_T1/LC08_L2SP_040023_20261017_20261021_02_T1_SR_B6.TIF",
+   "bytes": 88747279,
+   "sha256": "3b3d144f0d294f9388e5caeb081ec2dc07b4fe716114eba6a8fc1266e0e65e34"
+  },
+  "LC08_L2SP_040023_20261017_20261021_02_T1_SR_B7.TIF": {
+   "asset": "swir22",
+   "source_url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2026/040/023/LC08_L2SP_040023_20261017_20261021_02_T1/LC08_L2SP_040023_20261017_20261021_02_T1_SR_B7.TIF",
+   "bytes": 86737909,
+   "sha256": "f2d2558e0eddf5874b09e08008333acc7651d8cd2deb7079f231c835f59b9ea3"
+  },
+  "LC08_L2SP_040023_20261017_20261021_02_T1_SR_B1.TIF": {
+   "asset": "coastal",
+   "source_url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2026/040/023/LC08_L2SP_040023_20261017_20261021_02_T1/LC08_L2SP_040023_20261017_20261021_02_T1_SR_B1.TIF",
+   "bytes": 90964692,
+   "sha256": "ac7d5a8008f0b87694358edb39d1e02638b7e449b8fb89a6c901d2de990a32db"
+  },
+  "LC08_L2SP_040023_20261017_20261021_02_T1_MTL.txt": {
+   "asset": "mtl.txt",
+   "source_url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2026/040/023/LC08_L2SP_040023_20261017_20261021_02_T1/LC08_L2SP_040023_20261017_20261021_02_T1_MTL.txt",
+   "bytes": 15449,
+   "sha256": "50a8b2e77093e0b259bf736e50c6d3ebb8b313e315dd8b1a3415999254649379"
+  },
+  "LC08_L2SP_040023_20261017_20261021_02_T1_MTL.xml": {
+   "asset": "mtl.xml",
+   "source_url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2026/040/023/LC08_L2SP_040023_20261017_20261021_02_T1/LC08_L2SP_040023_20261017_20261021_02_T1_MTL.xml",
+   "bytes": 22765,
+   "sha256": "7cdda28d15ad11cd66e8988f1ca5173202d18dafb10abf9e0606c16a52d97493"
+  },
+  "LC08_L2SP_040023_20261017_20261021_02_T1_MTL.json": {
+   "asset": "mtl.json",
+   "source_url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2026/040/023/LC08_L2SP_040023_20261017_20261021_02_T1/LC08_L2SP_040023_20261017_20261021_02_T1_MTL.json",
+   "bytes": 14572,
+   "sha256": "b68e78486ffb2a3ea506eabca288f1ac42408ad6e98c5c482e59ccde512ad12e"
+  },
+  "LC08_L2SP_040023_20261017_20261021_02_T1_QA_PIXEL.TIF": {
+   "asset": "qa_pixel",
+   "source_url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2026/040/023/LC08_L2SP_040023_20261017_20261021_02_T1/LC08_L2SP_040023_20261017_20261021_02_T1_QA_PIXEL.TIF",
+   "bytes": 1259492,
+   "sha256": "c0fb9704d7007cbe5340f19a18e642698c89f1a9dd58735f4417921fb81ff0cc"
+  },
+  "LC08_L2SP_040023_20261017_20261021_02_T1_QA_RADSAT.TIF": {
+   "asset": "qa_radsat",
+   "source_url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2026/040/023/LC08_L2SP_040023_20261017_20261021_02_T1/LC08_L2SP_040023_20261017_20261021_02_T1_QA_RADSAT.TIF",
+   "bytes": 237144,
+   "sha256": "4b78e2fc10434143545829a7b5778c535a4664b30ed3ff6129eb66075b70d4e0"
+  },
+  "LC08_L2SP_040023_20261017_20261021_02_T1_SR_QA_AEROSOL.TIF": {
+   "asset": "qa_aerosol",
+   "source_url": "https://landsateuwest.blob.core.windows.net/landsat-c2/level-2/standard/oli-tirs/2026/040/023/LC08_L2SP_040023_20261017_20261021_02_T1/LC08_L2SP_040023_20261017_20261021_02_T1_SR_QA_AEROSOL.TIF",
+   "bytes": 2440076,
+   "sha256": "ccea372b27a65cae898eff4bb149e6e933479fa4335896bc9f1c0e027e8fe9d9"
+  }
+ },
+ "licence": "Landsat data courtesy of the U.S. Geological Survey (public domain)"
+}
